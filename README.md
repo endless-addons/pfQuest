@@ -17,27 +17,27 @@ pfQuest is the successor of ShaguQuest and has been entirely written from scratc
 ## Addon Memory Usage
 The addon ships an entire database of all spawns, objects, items and quests and therefore includes a huge database (~80 MB incl. all locales) that gets loaded into memory on game launch. However, the memory usage of pfQuest is persistent and does not increase any further over time, so there's nothing bad on performance at all. Depending on the download you pick (especially the full packages), you might see a message that warns you about an addon consuming too much memory. To get rid of that warning, you can set the addon memory limit to `0` which reads as `no limit`. This option can be found in the [character selection screen](https://i.imgur.com/rZXwaK0.jpg).
 
-# Auto-Tracking
+## Auto-Tracking
 The addon features 4 different modes that define how the new or updated questobjectives should be handled. Those modes can be selected on the dropdown menu in the top-right area the map.
 
-### Option: All Quests
+## Option: All Quests
 Every quest will be automatically shown and updated on the map.
 
-### Option: Tracked Quests
+## Option: Tracked Quests
 Only tracked quests (Shift-Click) will be automatically shown and updated on the map.
 
-### Option: Manual Selection
+## Option: Manual Selection
 Only quest objectives that have been manually displayed ("Show"-Button in the Questlog) will be displayed.
 Completed quest objectives will be still automatically removed from the map.
 
-### Option: Hide Quests
+## Option: Hide Quests
 Same as "Manual Selection" and in addition to that, Quest-Givers won't be shown automatically.
 Also completed quest objectives will remain on the map. This mode won't touch any of the map nodes created.
 
-# Database Browser
+## Database Browser
 The database GUI allows you to bookmark and browse through all entries within the pfQuest database. It can be opened by a click on the pfQuest minimap icon or via `/db show`. The browser will show a maximum of 100 entries at once for each tab. Use your scrollwheel or press the up/down arrows to go up and down the list.
 
-### Questlog Buttons
+## Questlog Buttons
 The questlog will show 4 additional buttons on each quest in order to provide easy manual quest tracking. Those buttons can be used to show or hide individual quests on the map. Those buttons won't affect the entries that you've placed by using the database browser.
 
 **Show**  
